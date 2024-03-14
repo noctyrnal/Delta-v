@@ -32,3 +32,14 @@
   - type: StealCondition
     stealGroup: WeaponEnergyGunMultiphase
     owner: job-name-hos
+
+- type: entity # Chief Engineer steal objective.
+  noSpawn: true
+  parent: BaseTraitorStealObjective
+  id: CERCDStealObjective
+  components:
+  - type: NotJobRequirement
+    job: ChiefEngineer
+  - type: StealCondition
+    stealGroup: RCDRecharging
+    # owner: job-name-ce
