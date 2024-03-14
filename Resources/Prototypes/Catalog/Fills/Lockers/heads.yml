@@ -198,8 +198,7 @@
       - id: BoxPDAEngineering # Delta-V
       - id: CEIDCard # Delta-V
       - id: ClothingShoesBootsWinterChiefEngineer #Delta V: Add departmental winter boots
-      - id: RCD
-      - id: RCDAmmo
+      - id: RCDRecharging #  Delta V - Give CE Experimental RCD + Resprite
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit

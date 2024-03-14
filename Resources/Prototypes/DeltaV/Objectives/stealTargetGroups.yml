@@ -18,3 +18,10 @@
   sprite:
     sprite: DeltaV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
     state: base
+
+- type: stealTargetGroup
+  id: RCDRecharging
+  name: chief engineer's experimental rcd
+  sprite:
+    sprite: DeltaV/Objects/Tools/experimental_rcd.rsi
+    state: icon
