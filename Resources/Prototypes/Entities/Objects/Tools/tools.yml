@@ -375,6 +375,7 @@
     maxCharges: 5
     charges: 0
 
+#  Delta V - Give CE Experimental RCD + Resprite
 - type: entity
   id: RCDRecharging
   parent: RCD
@@ -382,11 +383,22 @@
   description: A bluespace-enhanced RCD that regenerates charges passively.
   suffix: AutoRecharge
   components:
+  - type: Sprite
+    sprite: DeltaV/Objects/Tools/experimental_rcd.rsi
+    state: icon
+  - type: Clothing
+    sprite: DeltaV/Objects/Tools/experimental_rcd.rsi
+    quickEquip: false
+    slots:
+    - Belt
   - type: LimitedCharges
     maxCharges: 3
     charges: 3
   - type: AutoRecharge
     rechargeDuration: 30
+  - type: StealTarget
+    stealGroup: RCDRecharging
+
 
 - type: entity
   id: RCDExperimental
