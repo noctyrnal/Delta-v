@@ -93,3 +93,14 @@
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtCentcomTurtleneck
+  name: centcomm turtleneck
+  description: A warm and comfy turtleneck for more relaxed commanders.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_turtleneck.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_turtleneck.rsi
