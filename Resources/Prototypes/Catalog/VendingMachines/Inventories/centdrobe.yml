@@ -9,6 +9,8 @@
     ClothingUniformJumpsuitCentcomOfficial: 3
     ClothingUniformJumpsuitCentcomAgent: 3
     ClothingUniformJumpsuitCentcomFormal: 3
+    ClothingUniformJumpsuitCentcomTurtleneck: 3 #Delta V: Add more centcomm clothing
+    ClothingUniformJumpskirtCentcomTurtleneck: 3 #Delta V: Add more centcomm clothing
     ClothingUniformJumpskirtCentcomFormalDress: 3
     ClothingHeadHatCentcom: 3
     ClothingHeadHatCentcomcap: 3
