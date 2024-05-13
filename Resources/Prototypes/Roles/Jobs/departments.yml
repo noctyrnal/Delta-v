@@ -49,6 +49,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - AdministrativeAssistant # Delta V - Administrative Assistant, see Resources/Prototypes/DeltaV/Roles/Jobs/Command/admin_assistant.yml
   primary: false
   weight: 100
 
